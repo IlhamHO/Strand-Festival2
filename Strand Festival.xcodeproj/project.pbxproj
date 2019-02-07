@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		318739FC220C2D2200707ED5 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318739FB220C2D2200707ED5 /* Artist.swift */; };
+		318739FE220C2D4800707ED5 /* Festival.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318739FD220C2D4800707ED5 /* Festival.swift */; };
+		67E3CF7C22086A42002D196F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E3CF7B22086A42002D196F /* AppDelegate.swift */; };
+		67E3CF7E22086A42002D196F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E3CF7D22086A42002D196F /* ViewController.swift */; };
+		67E3CF8122086A42002D196F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67E3CF7F22086A42002D196F /* Main.storyboard */; };
+		67E3CF8322086A45002D196F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67E3CF8222086A45002D196F /* Assets.xcassets */; };
+		67E3CF8622086A45002D196F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67E3CF8422086A45002D196F /* LaunchScreen.storyboard */; };
+		67E3CF8E22087A41002D196F /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E3CF8D22087A41002D196F /* CollectionViewCell.swift */; };
+		67E3CF9022088306002D196F /* Strand Festival dag1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67E3CF8F22088306002D196F /* Strand Festival dag1.jpg */; };
+		67E3CF9222088325002D196F /* Strand Festival dag2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67E3CF9122088325002D196F /* Strand Festival dag2.jpg */; };
+		67E3CF9422088C8E002D196F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E3CF9322088C8E002D196F /* DetailViewController.swift */; };
+		67E3CF962208CA7D002D196F /* ArtistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E3CF952208CA7D002D196F /* ArtistViewController.swift */; };
+		67E3CF9E2208F2BA002D196F /* ArtistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E3CF9D2208F2BA002D196F /* ArtistTableViewCell.swift */; };
+		67E3CFA022090FF4002D196F /* DetailArtistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E3CF9F22090FF4002D196F /* DetailArtistViewController.swift */; };
+		67E3CFAA22091D41002D196F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E3CFA922091D41002D196F /* MapViewController.swift */; };
+		67E3CFAD22091FD2002D196F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E3CFAC22091FD2002D196F /* MapKit.framework */; };
+		67E3CFAF22092022002D196F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E3CFAE22092022002D196F /* CoreLocation.framework */; };
+		67E3CFB1220957D0002D196F /* MyAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E3CFB0220957D0002D196F /* MyAnnotation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		318739FB220C2D2200707ED5 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		318739FD220C2D4800707ED5 /* Festival.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Festival.swift; sourceTree = "<group>"; };
+		67E3CF7822086A42002D196F /* Strand Festival.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Strand Festival.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67E3CF7B22086A42002D196F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67E3CF7D22086A42002D196F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67E3CF8022086A42002D196F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67E3CF8222086A45002D196F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67E3CF8522086A45002D196F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67E3CF8722086A45002D196F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67E3CF8D22087A41002D196F /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		67E3CF8F22088306002D196F /* Strand Festival dag1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Strand Festival dag1.jpg"; sourceTree = "<group>"; };
+		67E3CF9122088325002D196F /* Strand Festival dag2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Strand Festival dag2.jpg"; sourceTree = "<group>"; };
+		67E3CF9322088C8E002D196F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		67E3CF952208CA7D002D196F /* ArtistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistViewController.swift; sourceTree = "<group>"; };
+		67E3CF9D2208F2BA002D196F /* ArtistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistTableViewCell.swift; sourceTree = "<group>"; };
+		67E3CF9F22090FF4002D196F /* DetailArtistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailArtistViewController.swift; sourceTree = "<group>"; };
+		67E3CFA922091D41002D196F /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		67E3CFAC22091FD2002D196F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		67E3CFAE22092022002D196F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		67E3CFB0220957D0002D196F /* MyAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAnnotation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67E3CF7522086A42002D196F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E3CFAF22092022002D196F /* CoreLocation.framework in Frameworks */,
+				67E3CFAD22091FD2002D196F /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67E3CF6F22086A42002D196F = {
+			isa = PBXGroup;
+			children = (
+				67E3CF7A22086A42002D196F /* Strand Festival */,
+				67E3CF7922086A42002D196F /* Products */,
+				67E3CFAB22091FD1002D196F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		67E3CF7922086A42002D196F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67E3CF7822086A42002D196F /* Strand Festival.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67E3CF7A22086A42002D196F /* Strand Festival */ = {
+			isa = PBXGroup;
+			children = (
+				67E3CF982208E8B0002D196F /* controller */,
+				67E3CF972208E89E002D196F /* model */,
+				67E3CF7B22086A42002D196F /* AppDelegate.swift */,
+				67E3CF7F22086A42002D196F /* Main.storyboard */,
+				67E3CF8222086A45002D196F /* Assets.xcassets */,
+				67E3CF9122088325002D196F /* Strand Festival dag2.jpg */,
+				67E3CF8F22088306002D196F /* Strand Festival dag1.jpg */,
+				67E3CF8422086A45002D196F /* LaunchScreen.storyboard */,
+				67E3CF8722086A45002D196F /* Info.plist */,
+			);
+			path = "Strand Festival";
+			sourceTree = "<group>";
+		};
+		67E3CF972208E89E002D196F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				67E3CFB0220957D0002D196F /* MyAnnotation.swift */,
+				318739FB220C2D2200707ED5 /* Artist.swift */,
+				318739FD220C2D4800707ED5 /* Festival.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		67E3CF982208E8B0002D196F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				67E3CF7D22086A42002D196F /* ViewController.swift */,
+				67E3CF8D22087A41002D196F /* CollectionViewCell.swift */,
+				67E3CF9322088C8E002D196F /* DetailViewController.swift */,
+				67E3CF952208CA7D002D196F /* ArtistViewController.swift */,
+				67E3CF9D2208F2BA002D196F /* ArtistTableViewCell.swift */,
+				67E3CF9F22090FF4002D196F /* DetailArtistViewController.swift */,
+				67E3CFA922091D41002D196F /* MapViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		67E3CFAB22091FD1002D196F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67E3CFAE22092022002D196F /* CoreLocation.framework */,
+				67E3CFAC22091FD2002D196F /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67E3CF7722086A42002D196F /* Strand Festival */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67E3CF8A22086A45002D196F /* Build configuration list for PBXNativeTarget "Strand Festival" */;
+			buildPhases = (
+				67E3CF7422086A42002D196F /* Sources */,
+				67E3CF7522086A42002D196F /* Frameworks */,
+				67E3CF7622086A42002D196F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Strand Festival";
+			productName = "Strand Festival";
+			productReference = 67E3CF7822086A42002D196F /* Strand Festival.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67E3CF7022086A42002D196F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = be.ehb;
+				TargetAttributes = {
+					67E3CF7722086A42002D196F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 67E3CF7322086A42002D196F /* Build configuration list for PBXProject "Strand Festival" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67E3CF6F22086A42002D196F;
+			productRefGroup = 67E3CF7922086A42002D196F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67E3CF7722086A42002D196F /* Strand Festival */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67E3CF7622086A42002D196F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E3CF8622086A45002D196F /* LaunchScreen.storyboard in Resources */,
+				67E3CF8322086A45002D196F /* Assets.xcassets in Resources */,
+				67E3CF9022088306002D196F /* Strand Festival dag1.jpg in Resources */,
+				67E3CF8122086A42002D196F /* Main.storyboard in Resources */,
+				67E3CF9222088325002D196F /* Strand Festival dag2.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67E3CF7422086A42002D196F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				318739FE220C2D4800707ED5 /* Festival.swift in Sources */,
+				67E3CFB1220957D0002D196F /* MyAnnotation.swift in Sources */,
+				67E3CF7E22086A42002D196F /* ViewController.swift in Sources */,
+				67E3CFAA22091D41002D196F /* MapViewController.swift in Sources */,
+				67E3CFA022090FF4002D196F /* DetailArtistViewController.swift in Sources */,
+				67E3CF7C22086A42002D196F /* AppDelegate.swift in Sources */,
+				67E3CF8E22087A41002D196F /* CollectionViewCell.swift in Sources */,
+				67E3CF9422088C8E002D196F /* DetailViewController.swift in Sources */,
+				67E3CF9E2208F2BA002D196F /* ArtistTableViewCell.swift in Sources */,
+				318739FC220C2D2200707ED5 /* Artist.swift in Sources */,
+				67E3CF962208CA7D002D196F /* ArtistViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		67E3CF7F22086A42002D196F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67E3CF8022086A42002D196F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67E3CF8422086A45002D196F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67E3CF8522086A45002D196F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67E3CF8822086A45002D196F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67E3CF8922086A45002D196F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67E3CF8B22086A45002D196F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Strand Festival/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "be.ehb.Strand-Festival.Strand-Festival";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67E3CF8C22086A45002D196F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Strand Festival/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "be.ehb.Strand-Festival.Strand-Festival";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67E3CF7322086A42002D196F /* Build configuration list for PBXProject "Strand Festival" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67E3CF8822086A45002D196F /* Debug */,
+				67E3CF8922086A45002D196F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67E3CF8A22086A45002D196F /* Build configuration list for PBXNativeTarget "Strand Festival" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67E3CF8B22086A45002D196F /* Debug */,
+				67E3CF8C22086A45002D196F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67E3CF7022086A42002D196F /* Project object */;
+}

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Strand Festival/controller/ArtistTableViewCell.swift"
+            timestampString = "571212058.237347"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "7"
+            endingLineNumber = "7"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Strand Festival/controller/MapViewController.swift"
+            timestampString = "571212058.237435"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "MapViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Strand_Festival.MapViewController.locationManager.getter : __C.CLLocationManager"
+                  moduleName = "Strand Festival"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amine/Desktop/Strand%20Festival/Strand%20Festival/controller/MapViewController.swift"
+                  timestampString = "571210523.599539"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Strand_Festival.MapViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Strand_Festival.MapViewController"
+                  moduleName = "Strand Festival"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amine/Desktop/Strand%20Festival/Strand%20Festival/controller/MapViewController.swift"
+                  timestampString = "571210523.606038"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "175">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Strand_Festival.MapViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Strand_Festival.MapViewController&gt;"
+                  moduleName = "Strand Festival"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amine/Desktop/Strand%20Festival/Strand%20Festival/controller/MapViewController.swift"
+                  timestampString = "571210523.6098191"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "146">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
